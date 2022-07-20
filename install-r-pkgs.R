@@ -16,7 +16,7 @@ BiocManager::install(pkgs, Ncpus = 8)
 BiocManager::install(c('BASiCS', 'batchelor', 'BiocSingular', 'bluster', 'corral',
   'iSEE', 'monocle', 'mumosa', 'PCAtools', 'scater', 'scDblFinder',
   'scran', 'SingleR', 'slingshot', 'tradeSeq', 'TrajectoryUtils', 'TSCAN',
-  'velociraptor')
+  'velociraptor'))
 
 
 dependencies_file <- paste0(
